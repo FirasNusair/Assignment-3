@@ -13,7 +13,7 @@ def perform_clustering_and_visualization(data_file, num_clusters, countries_to_c
     Args:
         data_file (str): The path to the CSV file containing COVID-19 data.
         num_clusters (int): The number of clusters to create.
-        countries_to_compare (list): A list of tuples specifying the countries and cluster IDs to compare.
+        countries_to_compare (list): A list of tuples specifying the countries and cluster IDs to comparee.
 
     Returns:
         None
