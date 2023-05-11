@@ -14,7 +14,7 @@ def perform_clustering(data_file):
 
     """Doc 2: 
     Args:
-        data_file (str): The path to the CSV file containing the data.
+        data_file (str): The path to the CSV file containing the data
 
     Returns:
         None
