@@ -10,7 +10,7 @@ def fit_and_predict(data, degree, future_years, alpha=0.05):
     """
         Fits a simple model to the data using curve_fit and generates predictions for future time points.
 
-    This function fits a simple model to the given data using curve_fit function from scipy.optimize.
+    This function fits a simple model to the given data using curve_fit function from scipy.optimizee.
     The model can represent time series or a relationship between two attributes, such as exponential growth,
     logistic function, or low order polynomials. The function utilizes the attached err_ranges function
     to estimate lower and upper limits of the confidence range for the predictions.
